@@ -22,22 +22,21 @@
 <a name="datasets"></a> 
 
 ## 🗂 Datasets
-All size variations of our full MDCure datasets will soon be available on HuggingFace.
-<!-- All size variations of our full MDCure datasets are available on HuggingFace. You can download and save the data via HuggingFace datasets:
+All size variations of our full MDCure datasets are available on HuggingFace. You can download and save the data via HuggingFace datasets:
 
 <style>
     table {
         width: 100%;
     }
-</style> -->
+</style>
 
-<!---
-| Dataset                   | HuggingFace Repo    | Description              v    |
+
+| Dataset                   | HuggingFace Repo    | Description                  |
 |---------------------------|---------------------|------------------------------|
-| MDCure-12k     | [🤗 HF Repo](https://huggingface.co) | **(Coming Soon)** Multi-document instruction dataset of size 12K, filtered using MDCureRM |
-| MDCure-36k     | [🤗 HF Repo](https://huggingface.co) | **(Coming Soon)** Multi-document instruction dataset of size 36K, filtered using MDCureRM |
-| MDCure-72k     | [🤗 HF Repo](https://huggingface.co) | **(Coming Soon)** Multi-document instruction dataset of size 72K, filtered using MDCureRM |
--->
+| MDCure-12k     | [🤗 HF Repo](https://huggingface.co/datasets/yale-nlp/MDCure-12k) | Multi-document instruction dataset of size 12K, filtered using MDCureRM |
+| MDCure-36k     | [🤗 HF Repo](https://huggingface.co/datasets/yale-nlp/MDCure-36k) | Multi-document instruction dataset of size 36K, filtered using MDCureRM |
+| MDCure-72k     | [🤗 HF Repo](https://huggingface.co/datasets/yale-nlp/MDCure-72k) | Multi-document instruction dataset of size 72K, filtered using MDCureRM |
+
 
 ### Sample Dataset Entries
 
