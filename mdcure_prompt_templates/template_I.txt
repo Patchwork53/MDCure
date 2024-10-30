@@ -1,0 +1,6 @@
+Articles:
+{context_docs}
+What is an exam question that can ONLY be answered by utilizing ALL of the above documents and that CANNOT be answered if any one document is removed?
+
+Exam Question: <respond here>
+Answer: <respond here briefly>

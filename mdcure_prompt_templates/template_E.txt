@@ -1,0 +1,6 @@
+Context Paragraphs: `{doc1}`, `{doc2}`
+Based on the two given context paragraphs, construct an instruction-answer pair such that (1) the answer is a summary of the two paragraphs and (2) the instruction is a plausible prompt or question to which the answer is the expected response. Make sure both paragraphs are required to answer the instruction. You will be penalized if the instruction concerns only one paragraph. Make sure the answer does not conflict with the information in the paragraphs. You will be penalized if the instruction-answer pair is unfactual. Make sure the answer is at least 5 sentences in length. Do not mention the context paragraphs in the instruction.
+
+Format your response as:
+Instruction: <prompt or question>
+Answer: <answer>

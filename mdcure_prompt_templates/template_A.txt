@@ -1,0 +1,6 @@
+Snippets: `{segment1}`, `{segment2}`
+Context Paragraphs: `{doc1}`, `{doc2}`
+Based on the given snippets and context paragraphs, construct an instruction-answer pair such that (1) the answer is based on the two snippets and (2) the instruction is a plausible prompt or question to which the answer would be the expected response. Make sure both snippets are required to answer the instruction. You will be penalized if the instruction concerns only one snippet.
+
+Instruction: <prompt or question>
+Answer: <answer>

@@ -1,0 +1,15 @@
+You're proficient in crafting complex questions. Generate only one question and one answer that adheres to the provided #Articles#. Make sure the question and answer are factually consistent with the #Articles#. The question should meet the following criteria: 
+0. The person answering the question cannot see the #Articles#, so the question must not contain phrases like 'Given the information provided', 'Based on the provided information', or similar expressions that imply direct citations or references from #Articles#. 
+1. The question must REQUIRE synthesis of information in at least 2 of the provided documents in order to answer correctly. The more documents are involved the better. Ideally all documents are required to answer the question, such that losing any one of them will lead person answering the question to provide an incorrect response. You will lose your job if this criterion is not satisfied.
+2. {characteristic}
+3. {type}
+4. {style}.
+5. It requires {answer_length} to answer correctly.
+
+The answer must be {answer_length} in length.
+
+### Articles: 
+{docs}
+
+Question: <respond here>
+Answer: <respond here>"""

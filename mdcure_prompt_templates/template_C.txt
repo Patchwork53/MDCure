@@ -1,0 +1,6 @@
+Snippets: `{segment1}`, `{segment2}`
+Based on the given snippets, construct an instruction-answer pair such that (1) the answer is no and (2) the instruction is a plausible prompt or question to which no would be the expected response. Make sure the answer does not conflict with the information in the snippets. You will be penalized if the instruction-answer pair is unfactual. Do NOT mention the snippets in the instruction. 
+
+Format your response as:
+Instruction: <prompt or question>
+Answer: <no>

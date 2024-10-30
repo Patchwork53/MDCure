@@ -1,0 +1,5 @@
+{context_docs}
+A question or command that can ONLY be answered by utilizing ALL of the above documents and that CANNOT be answered if any one document is removed is:
+
+Question: <respond here>
+Answer: <respond here>

@@ -1,0 +1,13 @@
+datasets==2.21.0
+distilabel==1.3.2
+huggingface_hub==0.24.6
+torch==2.4.0
+transformers==4.44.1
+trl==0.10.1
+numpy==1.26.4
+openai==1.42.0
+pandas==2.2.2
+pydantic==2.8.2
+rich==13.7.1
+wandb==0.17.8
+bitsandbytes==0.43.3

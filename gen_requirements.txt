@@ -1,0 +1,10 @@
+numpy==1.24.3
+pandas==2.0.3
+sentence_transformers==3.2.1
+tqdm==4.65.0
+nltk==3.8.1
+openai==1.26.0
+torch==2.1.1
+tqdm==4.65.0
+accelerate==0.24.1
+bitsandbytes==0.42.0

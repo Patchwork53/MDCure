@@ -1,0 +1,45 @@
+Characteristic Options:
+• "It should be complex and require multiple-step reasoning across the documents to solve."
+• "It demands critical thinking skills to analyze, evaluate, and synthesize multiple pieces of information from the different documents."
+• "It demands integrating knowledge from multiple documents to address its multifaceted nature."
+• "It should be simple and require only a few words to answer, yet utilize supporting evidence from at least 2 documents."
+
+Type Options:
+• "It is a Natural language inference question: Assessing if evidence supports a conclusion."
+• "It is a Paraphrasing question: Rewording a statement while retaining its meaning."
+• "It is a Summarization question: Condensing key information from a larger text."
+• "It is an Informational question: Locating a specific piece of information in the given evidence."
+
+Style Options:
+• It should be in the style of a command or imperative. For example, 'Write a paragraph about...' or 'Describe the...'"
+• It should be in the style of a question or interrogative. For example, 'What is the..?' or 'How do you...?'"
+• It should be in the style of a short phrase that serves as a query. For example, 'today's forecast.' or 'Donna’s car accident.'"
+
+Answer Length Options:
+• "1-2 words"
+• "3-4 words"
+• "a phrase of at least 5-6 words"
+• "1-2 sentences"
+• "3-4 sentences"
+• "6 sentences"
+• "8 sentences"
+• "10 sentences"
+
+Length Direction Options (General):
+• "Answer briefly in 1-2 sentences."
+• "Answer ‘yes’ or ‘no’"
+• "Answer ‘yes’ or ‘no’"
+• "Answer with a single word or brief phrase."
+• "Answer with at least 5 sentences."
+• "Answer with at most 5 sentences."
+
+Length Direction Options (Style-Specific):
+• "Answer with {answer_length}."
+• "Answer using {answer_length}."
+• "Respond with {answer_length}."
+• "Respond using {answer_length}."
+• "Formulate your answer in {answer_length}."
+• "Reply with a {answer_length} answer."
+• "Craft your response in {answer_length}."
+• "Give a response that is {answer_length}."
+• "Answer in around {answer_length}."

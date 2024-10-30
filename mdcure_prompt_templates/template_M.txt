@@ -1,0 +1,5 @@
+Articles:
+{context_docs}
+
+Contrasting Question: <respond here>
+Answer: <respond here briefly>
