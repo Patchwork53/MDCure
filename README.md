@@ -102,7 +102,7 @@ python ./0_source_data_preparation/save_snippet_pairs.py
 Install the required packages:
 
 ```bash
-pip install -r ./gen_requirements.txt
+pip install -r ./1_mdcure_generation/gen_requirements.txt
 ```
 
 #### Generation with Prompt Templates A-F (General Templates)

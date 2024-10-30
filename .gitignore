@@ -1,0 +1,4 @@
+.DS_Store
+instruction_tuning/full_requirements.txt
+2_mdcure_filtering/full_requirements.txt
+1_mdcure_generation/full_requirements.txt
