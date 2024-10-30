@@ -1,4 +1,4 @@
-# MDCure: Scalable Synthetic Data Generation & Curation for Multi-Document Instruction-Following
+# MDCure: A Scalable Pipeline for Multi-Document Instruction-Following
 
 **MDCure** is an effective and scalable approach for synthetic data generation and curation tailored for multi-document (MD) instruction-tuning. This repository provides datasets, models, and source code to reproduce MDCure.
 
@@ -22,7 +22,7 @@
 <a name="datasets"></a> 
 
 ## 🗂 Datasets
-All size variations of our full MDCure datasets are available on HuggingFace. You can download and save the data via HuggingFace datasets:
+All size variations of our full MDCure datasets are available on HuggingFace. You can download and use the data via HuggingFace datasets:
 
 | Dataset                   | HuggingFace Repo    | Description                  |
 |---------------------------|---------------------|------------------------------|
@@ -51,10 +51,10 @@ We release our **MDCure'd models**, instruction-tuned from various base models t
 | MDCureRM  | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** Multi-objective reward model to filter MD instruction data more cheaply and effectively than GPT-3.5-Turbo. |
 | MDCure-FlanT5-Base       | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **FlanT5-Base** fine-tuned with MDCure-72k, optimized for MD tasks.           |
 | MDCure-FlanT5-Large      | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **FlanT5-Large** fine-tuned with MDCure-72k, optimized for MD tasks.          |
-| MDCure-Qwen2-1.5B-Ins    | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **Qwen2-1.5B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks.   |
-| MDCure-Qwen2-7B-Ins      | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **Qwen2-7B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks.     |
-| MDCure-LLAMA3.1-8B-Ins   | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **LLAMA3.1-8B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks.  |
-| MDCure-LLAMA3.1-70B-Ins  | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **LLAMA3.1-70B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks. |
+| MDCure-Qwen2-1.5B-Instruct    | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **Qwen2-1.5B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks.   |
+| MDCure-Qwen2-7B-Instruct      | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **Qwen2-7B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks.     |
+| MDCure-LLAMA3.1-8B-Instruct   | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **LLAMA3.1-8B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks.  |
+| MDCure-LLAMA3.1-70B-Instruct  | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **LLAMA3.1-70B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks. |
 
 
 <a name="construction"></a> 
