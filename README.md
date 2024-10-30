@@ -43,10 +43,9 @@ The table below contains example instances of the final MDCure instruction sampl
 <a name="models"></a> 
 
 ## ⚙️ Models
-We will soon release our **MDCure'd models**, instruction-tuned from various base models to exhibit superior performance on multi-document tasks, as well as **MDCureRM**, our custom reward model designed specifically for the MD setting to filter and select high-quality MD instruction data in a cost-effective way.
-<!-- We release our **MDCure'd models**, instruction-tuned from various base models to exhibit superior performnace on multi-document tasks, as well as **MDCureRM**, our custom reward model designed specifically for the MD setting to filter and select high-quality MD instruction data in a cost-effective way. -->
+<!-- We will soon release our **MDCure'd models**, instruction-tuned from various base models to exhibit superior performance on multi-document tasks, as well as **MDCureRM**, our custom reward model designed specifically for the MD setting to filter and select high-quality MD instruction data in a cost-effective way. -->
+We release our **MDCure'd models**, instruction-tuned from various base models to exhibit superior performnace on multi-document tasks, as well as **MDCureRM**, our custom reward model designed specifically for the MD setting to filter and select high-quality MD instruction data in a cost-effective way.
 
-<!---
 | Model                     | Huggingface Repo    | Description                  |
 |---------------------------|---------------------|------------------------------|
 | MDCureRM  | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** Multi-objective reward model to filter MD instruction data more cheaply and effectively than GPT-3.5-Turbo. |
@@ -56,7 +55,7 @@ We will soon release our **MDCure'd models**, instruction-tuned from various bas
 | MDCure-Qwen2-7B-Ins      | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **Qwen2-7B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks.     |
 | MDCure-LLAMA3.1-8B-Ins   | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **LLAMA3.1-8B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks.  |
 | MDCure-LLAMA3.1-70B-Ins  | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **LLAMA3.1-70B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks. |
--->
+
 
 <a name="construction"></a> 
 
