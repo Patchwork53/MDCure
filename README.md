@@ -30,7 +30,6 @@ All size variations of our full MDCure datasets are available on HuggingFace. Yo
     }
 </style>
 
-
 | Dataset                   | HuggingFace Repo    | Description                  |
 |---------------------------|---------------------|------------------------------|
 | MDCure-12k     | [🤗 HF Repo](https://huggingface.co/datasets/yale-nlp/MDCure-12k) | Multi-document instruction dataset of size 12K, filtered using MDCureRM |
