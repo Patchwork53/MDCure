@@ -2,12 +2,12 @@
 
 **MDCure** is an effective and scalable approach for synthetic data generation and curation tailored for multi-document (MD) instruction-tuning. This repository provides datasets, models, and source code to reproduce MDCure.
 
-<!---
+
 <p align="center">
-  <a href="https://huggingface.co" style="display:inline-block;background-color:#4CAF50;color:white;padding:10px 20px;text-align:center;text-decoration:none;font-size:16px;border-radius:5px;margin-right:10px;">🤗 HF Repo</a>
-  <a href="https://arxiv.org" style="display:inline-block;background-color:#2196F3;color:white;padding:10px 20px;text-align:center;text-decoration:none;font-size:16px;border-radius:5px;">📄 Paper</a>
+  <a href="https://huggingface.co/collections/yale-nlp/mdcure-6724914875e87f41e5445395" style="display:inline-block;background-color:#4CAF50;color:white;padding:10px 20px;text-align:center;text-decoration:none;font-size:16px;border-radius:5px;margin-right:10px;">🤗 HF Repo</a>
+  <a href="https://arxiv.org/abs/2410.23463" style="display:inline-block;background-color:#2196F3;color:white;padding:10px 20px;text-align:center;text-decoration:none;font-size:16px;border-radius:5px;">📄 Paper</a>
 </p>
--->
+
 
 ## Table of Contents
 - [🗂  Datasets](#datasets) & [ ⚙️  Models](#models)
@@ -48,13 +48,13 @@ We release our **MDCure'd models**, instruction-tuned from various base models t
 
 | Model                     | Huggingface Repo    | Description                  |
 |---------------------------|---------------------|------------------------------|
-| MDCureRM  | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** Multi-objective reward model to filter MD instruction data more cheaply and effectively than GPT-3.5-Turbo. |
-| MDCure-FlanT5-Base       | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **FlanT5-Base** fine-tuned with MDCure-72k, optimized for MD tasks.           |
-| MDCure-FlanT5-Large      | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **FlanT5-Large** fine-tuned with MDCure-72k, optimized for MD tasks.          |
-| MDCure-Qwen2-1.5B-Instruct    | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **Qwen2-1.5B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks.   |
-| MDCure-Qwen2-7B-Instruct      | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **Qwen2-7B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks.     |
-| MDCure-LLAMA3.1-8B-Instruct   | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **LLAMA3.1-8B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks.  |
-| MDCure-LLAMA3.1-70B-Instruct  | [🤗 HF Repo](https://huggingface.co/repo_placeholder) | **(Coming Soon)** **LLAMA3.1-70B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks. |
+| MDCureRM  | [🤗 HF Repo](https://huggingface.co/yale-nlp/MDCureRM) | Multi-objective reward model to filter MD instruction data more cheaply and effectively than GPT-3.5-Turbo. |
+| MDCure-FlanT5-Base       | [🤗 HF Repo](https://huggingface.co/yale-nlp/MDCure-FlanT5-Base) | **FlanT5-Base** fine-tuned with MDCure-72k, optimized for MD tasks.           |
+| MDCure-FlanT5-Large      | [🤗 HF Repo](https://huggingface.co/yale-nlp/MDCure-FlanT5-Large) | **FlanT5-Large** fine-tuned with MDCure-72k, optimized for MD tasks.          |
+| MDCure-Qwen2-1.5B-Instruct    | [🤗 HF Repo](https://huggingface.co/yale-nlp/MDCure-Qwen2-1.5B-Instruct) | **Qwen2-1.5B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks.   |
+| MDCure-Qwen2-7B-Instruct      | [🤗 HF Repo](https://huggingface.co/yale-nlp/MDCure-Qwen2-7B-Instruct) | **Qwen2-7B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks.     |
+| MDCure-LLAMA3.1-8B-Instruct   | [🤗 HF Repo](https://huggingface.co/yale-nlp/MDCure-LLAMA3.1-8B-Instruct) | **LLAMA3.1-8B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks.  |
+| MDCure-LLAMA3.1-70B-Instruct  | [🤗 HF Repo](https://huggingface.co/yale-nlp/MDCure-LLAMA3.1-70B-Instruct) | **LLAMA3.1-70B-Instruct** fine-tuned with MDCure-72k, optimized for MD tasks. |
 
 
 <a name="construction"></a> 
@@ -369,5 +369,11 @@ We list below the evaluation benchmarks that we used in our paper. For Multi-XSc
 
 If you find the content of this project helpful, please cite our paper as follows:
 ```
-Citation coming soon. Please keep an eye out!
+@article{liu2023mdcure,
+    title={MDCure: A Scalable Pipeline for Multi-Document Instruction-Following},
+    author={Gabrielle Kaili-May Liu and Bowen Shi and Avi Caciularu and Idan Szpektor and Arman Cohan},
+    journal={arXiv preprint arXiv:2410.23463},
+    year={2024},
+    url={https://arxiv.org/abs/2410.23463}
+}
 ```
