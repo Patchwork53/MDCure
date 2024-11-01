@@ -367,7 +367,7 @@ We list below the evaluation benchmarks that we used in our paper. For Multi-XSc
 ## 📝 Citation
 
 If you find the content of this project helpful, please cite our paper as follows:
-```
+```bibtex
 @article{liu2023mdcure,
     title={MDCure: A Scalable Pipeline for Multi-Document Instruction-Following},
     author={Gabrielle Kaili-May Liu and Bowen Shi and Avi Caciularu and Idan Szpektor and Arman Cohan},
