@@ -7,7 +7,7 @@ import json
 import numpy as np
 import torch.nn as nn
 
-WEIGHT = torch.tensor([1/9, 1/9, 2/9, 2/9, 2/9, 2/9], device="cuda") # weights to apply across the 6 scoring criteria for weighted average
+WEIGHT = torch.tensor([1/9, 1/9, 1/9, 2/9, 2/9, 2/9], device="cuda") # weights to apply across the 6 scoring criteria for weighted average
 
 # Login to HF to access LLAMA model
 from huggingface_hub import login
